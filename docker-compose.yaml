@@ -28,3 +28,6 @@ services:
     # mkdir /etc/consul.d
     # mkdir /var/lib/consul
     # consul agent -server -bootstrap-expect=3 -node=consul-server-03 -bind=172.21.0.2 -data-dir=/var/lib/consul -config-dir=/etc/consul.d
+
+
+    # consul agent -bind=172.21.0.5 -data-dir=/var/lib/consul -config-dir=/etc/consul.d
